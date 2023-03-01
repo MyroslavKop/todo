@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 50px;
+}
+.form_input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    border: none;
+}
+.error {
+    position: absolute;
+    color: red;
+    font-size: 12px;
+    margin-top: 6px;
+    top: 100%;
+}
+.error_input {
+    outline: 2px solid red;
+}

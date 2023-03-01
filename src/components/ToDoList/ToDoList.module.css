@@ -1,0 +1,29 @@
+.table {
+    text-align: center;
+    max-width: 500px;
+}
+.table_head {
+    background-color: #cecece;
+    text-transform: uppercase;
+}
+.todo {
+    background-color: #a5a5a5;
+    padding: 40px;
+}
+.line {
+    padding: 20px;
+}
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 30px;
+    padding: 10px;
+}
+.title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 30px;
+    padding: 10px;
+}
