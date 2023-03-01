@@ -1,8 +1,8 @@
-import style from "./Container.module.css";
+import styles from "./Container.module.css";
+import ContainerProps from "./interface";
 
-// @ts-ignore
-const Container = ({ children }) => {
-  return <div className={style.container}>{children}</div>;
+const Container = ({ children }: ContainerProps) => {
+  return <div className={styles.container}>{children}</div>;
 };
 
 export default Container;

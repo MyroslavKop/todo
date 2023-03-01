@@ -1,5 +1,5 @@
 import styles from "./ModalWindow.module.css";
-import ModalWindowProps from "./interfaces";
+import ModalWindowProps from "./interface";
 
 const ModalWindow = ({ isOpen, onClose, todo }: ModalWindowProps) => {
   if (!todo) {
